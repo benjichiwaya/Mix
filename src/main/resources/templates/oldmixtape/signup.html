@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html>
+
+
+
+<head>
+
+<!-- Creators: Ahmad Hawkins, Benjamin Muyinda
+
+     HTML & CSS Final Project: Mixtape Doctor
+
+     CMOP 235/236
+      
+     12-03-2014
+
+	THE SIGN UP PAGE HTML
+-->
+
+    <meta charset="UTF-8" />
+    <title>MixTape Doctor</title>
+    <script src="modernizr-1.5.js"></script>
+    <link rel="stylesheet" type="text/css" href="sup.css">
+    <link rel="shortcut icon" href=" logo.ico" />
+
+
+</head>
+
+<style>
+
+#Logo
+{ 
+	height: 200px;
+	width: 350px;
+
+	border: 1px solid rgb(206,206,206);
+	border-radius: 40px;
+	
+	margin-left: 15px;
+	margin-top: -60px;
+} 
+
+div.hp 
+{
+	background:radial-gradient(circle, white, grey, rgb(206,206,206));
+	border: 1px solid black;
+	width: 900px;
+	height: 1600px;
+
+	margin-left: auto;
+    	margin-right: auto;  
+}
+
+div.topbar {
+		background-color: rgb(45,42,42);
+		width: 900px;
+		height: 40px;
+
+}
+
+div.mb
+{
+	background-color: rgb(212, 212, 212);
+	border: 1px solid black;
+	width: 600px;
+	height: 300px;
+	
+	margin-left: auto;
+	margin-right: auto;
+
+	position: relative;
+	top: 150px;
+	left: -100px;
+}
+
+
+
+
+#login
+{
+	float: right;
+	
+	border: 1px solid black;
+}
+
+
+#toplink
+{
+
+	float: right; 
+	word-spacing: 30px;
+	margin-top: 20px;
+
+}
+
+
+
+a:link 
+
+ {
+    color: #FF0000;
+    text-decoration: none;
+
+ }
+
+a:hover {
+    color: blue;
+     text-decoration: none;
+}
+
+</style> 
+
+
+<body>
+
+<div class="hp">
+
+
+<div class="topbar">
+<a id="toplink" href="mixdoc.html">  | Home   | </a>
+<a id="toplink" href="signup.html">  | SignUp/LogIn | </a>
+<a id="toplink" href="contact.html"> | Contact | </a>
+
+</div>
+
+<h1> <a href="mixdoc.html"> MIXTAPEDOCTOR.COM </a> </h1> 
+
+<pic> <img id="Logo" src="tape.gif" alt="Logo"> </pic>
+
+
+<div class="mb">
+
+<form>
+<fieldset>
+<legend>Sign Up:</legend>
+First name:<br>
+<input type="text" name="firstname" value=" ">
+<br>
+Last name:<br>
+<input type="text" name="lastname" value=" ">
+<br><br>
+Email:</br>
+<input type="text" name="email" value=" ">
+Password:</br>
+<input type="text" name="password" value=" ">
+
+<input type="submit" value="Submit">
+</fieldset>
+</form>
+
+
+<form id="form2">
+<fieldset>
+<legend>Log In:</legend>
+First name:<br>
+<input type="text" name="firstname" value=" ">
+<br>
+Last name:<br>
+<input type="text" name="lastname" value=" ">
+<br><br>
+Email:</br>
+<input type="text" name="email" value=" ">
+Password:</br>
+<input type="text" name="password" value=" ">
+
+<input type="submit" value="Submit">
+</fieldset>
+</form>
+</div>
+</div>
+
+<footer>
+  <em> mixtapedoctor.com: A place to listen and share music </em> </br>
+  <em>Contact information: <a href="mailto:ahmad.hawkins6@gmail.com"> Email Us </a> </em>
+</footer> 
+
+</body>
+</html>

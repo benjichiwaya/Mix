@@ -1,0 +1,83 @@
+/*
+	Creators: Ahmad Hawkins, Benjamin Muyinda
+
+	HTML & CSS Final Project: Mixtape Doctor
+
+	CMOP 235/236
+      
+	12-03-2014 
+*/
+
+/* CSS file for sbcpg.html the cover page for the Mixtape Shitty Butt Chronicles */
+
+
+/* positioning for the title next to the logo */
+
+h1
+{
+	position: relative;
+	top: 20px;
+	left: 150px;
+}
+
+
+/* background color */
+
+body
+{
+	background: linear-gradient(180deg, black,  red, red, red, black, black);
+	height: 100%;
+         background-repeat: no-repeat;
+
+	
+	
+}
+
+
+h1
+{
+	position: relative;
+	top: 150px;
+	left: 400px;
+
+}
+
+
+h2
+{
+	position: relative;
+	top: 10px;
+	left: 150px;
+
+	font-size: 32px;
+
+}
+
+
+/*  positoning for "featured mixtapes"*/
+
+h3
+{
+	position: relative;
+	top: 20px;
+	left: 260px;
+	
+	
+}
+
+pic 
+{
+	position: relative; 
+	left: 150px;
+}
+
+p
+{
+font-family: Imprint MT Shadow;
+	
+}
+
+
+footer { text-align: center;
+
+color: white;}

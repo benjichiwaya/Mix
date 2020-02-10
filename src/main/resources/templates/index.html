@@ -1,11 +1,93 @@
-<!DOCTYPE html
-        PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
-        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns:th="http://www.thymeleaf.org" xml:lang="en" lang="en">
-<head>
-    <title>Home</title>
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.w3.org/1999/xhtml" xmlns="http://www.w3.org/1999/html">
+
+<head th:insert="fragment/header">
 </head>
 <body>
+<header>
+    <div class="navbar navbar-expand-lg bg-dark navbar-dark" th:insert="fragment/navbar">
+    </div>
+</header>
+</br>
+<div class="container">
+<!-- Video of the week Test Run-->
+<div id="demo" class="carousel slide" data-ride="carousel">
+    <ul class="carousel-indicators">
+        <li data-target="#demo" data-slide-to="0" class="active"></li>
+        <li data-target="#demo" data-slide-to="1"></li>
+        <li data-target="#demo" data-slide-to="2"></li>
+    </ul>
+    <div class="carousel-inner">
+        <div class="carousel-item active">
+            <iframe width="1200" height="500" th:src="@{https://www.youtube.com/embed/Nlt43axij5k}"
+                    frameborder="0" alt="no video attached" allowfullscreen="1">
+            </iframe>
+            <div class="carousel-caption">
+                <h3>Thot king</h3>
+                <p> Don't pay for Np features</p>
+            </div>
+        </div>
 
+        <div class="carousel-item">
+            <iframe width="1200" height="500" th:src="@{https://www.youtube.com/embed/Mb9EC2AeOQ}"
+                    frameborder="0" alt="no video attached" allowfullscreen="1">
+            </iframe>
+            <div class="carousel-caption">
+                <h3>Thot king</h3>
+                <p> 6 Checks</p>
+            </div>
+        </div>
+
+        <div class="carousel-item">
+            <iframe width="1200" height="500" th:src="@{https://www.youtube.com/embed/Mb9EC2AeOQ}"
+                    frameborder="0" alt="no video attached" allowfullscreen="1">
+            </iframe>
+
+            <div class="carousel-caption">
+                <h3>New York</h3>
+                <p>We love the!</p>
+            </div>
+        </div>
+    </div>
+
+    <a class="carousel-control-prev" href="#demo" data-slide="prev">
+        <span class="carousel-control-prev-icon"></span>
+    </a>
+
+    <a class="carousel-control-next" href="#demo" data-slide="next">
+        <span class="carousel-control-next-icon"></span>
+    </a>
+
+</div>
+</br>
+</br>
+<ul>
+<div class="card form-inline" style="width:200px ">
+    <img class="card-img-top" src="img_avatar1.png" alt="Card image" style="width:100%">
+    <div class="card-body">
+        <h4 class="card-title">John Doe</h4>
+        <p class="card-text">Some example text some example text. John Doe is an architect and engineer</p>
+        <a href="#" class="btn btn-primary">See Profile</a>
+    </div>
+    <div class="card" style="width:200px">
+        <img class="card-img-top" src="img_avatar1.png" alt="Card image" style="width:100%">
+        <div class="card-body">
+            <h4 class="card-title">John Doe</h4>
+            <p class="card-text">Some example text some example text. John Doe is an architect and engineer</p>
+            <a href="#" class="btn btn-primary">See Profile</a>
+        </div>
+    </div>
+    <div class="card" style="width:200px">
+        <img class="card-img-top" src="img_avatar1.png" alt="Card image" style="width:100%">
+        <div class="card-body">
+            <h4 class="card-title">John Doe</h4>
+            <p class="card-text">Some example text some example text. John Doe is an architect and engineer</p>
+            <a href="#" class="btn btn-primary">See Profile</a>
+        </div>
+    </div>
+</div>
+</ul>
+</div>
 </body>
+
 </html>

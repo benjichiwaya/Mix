@@ -1,0 +1,119 @@
+/*
+	Creators: Ahmad Hawkins, Benjamin Muyinda
+
+	HTML & CSS Final Project: Mixtape Doctor
+
+	CMOP 235/236
+      
+	12-03-2014 
+*/
+
+/* CSS file for mixdoc.html the home page for the Mixtape Doctor website */
+
+
+/* positioning for the title next to the logo */
+
+h1
+{
+	position: relative;
+	top: 150px;
+	left: 400px;
+
+}
+
+
+/* background color */
+
+body
+{
+	background: linear-gradient(180deg, black,  red, red, red, black, black);
+	/* height: 1200px;*/
+
+	height: auto;
+         background-repeat: no-repeat;
+	
+	
+}
+
+/*  positoning for "featured mixtapes"*/
+
+
+
+
+video
+{ 
+position: relative;
+ top: 25px;
+ left: 25px;
+}
+
+strong
+{
+	position: relative;
+	left: 25px;
+}
+
+
+h4
+{
+	position: relative;
+	top: 100px;
+	left: 20px;
+	
+	
+}
+ 
+
+/* video of the week title */
+tv
+{ 
+
+	font-size: 32px;
+
+	position: relative;
+	top: 150px;
+	left: 300px;
+	
+
+
+}
+
+/* comment balloon */
+img
+{
+	width: 600px;
+	height: 340px;
+	
+
+}
+
+
+/* text within comment balloon*/
+p
+{
+
+	line-height: 100%;
+	column-gap: 40px;
+
+	position: absolute;
+ 	top: 65px;
+	left:50px;
+}
+
+gtag
+{
+	font-size: 62px;
+	font-family: forte;
+
+	position: absolute;
+ 	top: 15px;
+	left:160px;
+}
+
+#comball
+{border-radius: 100px;}
+
+footer { text-align: center;
+
+color: white;}
+

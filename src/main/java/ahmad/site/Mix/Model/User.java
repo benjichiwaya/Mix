@@ -7,10 +7,10 @@ public class User
     private String UserName;
     private String Email;
     private String Password;
-    private List <Song> Favorites;
     private int user_ID;
 
     public User() {
+
     }
 
     public String getUserName() {
@@ -45,11 +45,4 @@ public class User
         this.user_ID = user_ID;
     }
 
-    public List<Song> getFavorites() {
-        return Favorites;
-    }
-
-    public void setFavorites(List<Song> favorites) {
-        Favorites = favorites;
-    }
 }

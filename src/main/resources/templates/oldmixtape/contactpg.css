@@ -1,0 +1,44 @@
+/*
+	Creators: Ahmad Hawkins, Benjamin Muyinda
+
+	HTML & CSS Final Project: Mixtape Doctor
+
+	CMOP 235/236
+      
+	12-03-2014 
+		contact CSS (contactpg.css)
+*/
+
+
+
+
+
+
+
+/* background color */
+
+h1
+{
+	position: relative;
+	top: 150px;
+	left: 400px;
+
+}
+
+body
+{
+	background: linear-gradient(180deg, black,  red, red, red, black, black);
+	/* height: 1200px;*/
+
+	height: auto;
+         background-repeat: no-repeat;
+	
+	/* positioning for the title next to the logo */
+
+
+
+
+footer { text-align: center;
+
+color: white;}
+
